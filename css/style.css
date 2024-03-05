@@ -41,13 +41,122 @@ body{
 }
 
 .item_1{
-    background: red;
+    display: flex;
     grid-area: menu;
 }
 
+.Busqueda{
+    background: var(--color-secundary);
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 59.55px;
+    align-items: center;
+}
+
+.Busqueda ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Busqueda ul li{
+    display: flex;
+    align-items: center;
+}
+
+.Busqueda input{    
+    position: relative;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    border: 0;
+    padding: 5px;
+    width: 130px;
+    height: 40px;
+}
+
+.Busqueda i{
+    position: absolute;
+    transform: translateX(700%);
+}
+
+.Usuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 59.55px;
+    background: linear-gradient(90deg, var(--color-tertiary), var(--color-quartetiary))
+}
+
+.Usuario .notis{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;   
+    font-size: 30px;
+}
+
+.Usuario .notis li{
+    margin-left: 7px;
+}
+
+.Usuario .Datos{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Datos li{
+    list-style: none;
+    font-size: 15px;
+}
+
+.Datos li p{
+    font-size: 13px;
+}
+
+.user{
+    font-size: 50px;
+    list-style: none;
+}
+
 .item_2{
-    background: blue;
+    background: var(--color-tertiary);
     grid-area: notification;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.arriba{
+    display: flex;
+    margin: 12px;
+}
+
+.arriba p{
+    font-size: 15px;
+    width: 90%;
+    
+}
+.arriba i{
+    width: 10%;
+    font-size: 20px;
+}
+
+.info h4{
+    width: 100%;
+    margin-left: 12px;
 }
 
 .item_3{
@@ -55,9 +164,27 @@ body{
     grid-area: sales;
 }
 
+
+
 .item_4{
-    background: pink;
+    background: var(--color-secundary);
     grid-area: balance;
+}
+
+.item_4 div{
+    margin: 6px;
+    padding: 10px;
+    height: 30%;
+}
+
+.item_4 .caja_2{
+    padding: 10px;
+    background: var(--color-quintuple);
+    box-shadow: var(--color-shadows) 
+}
+
+.item_4 p{
+    font-size: 10px;
 }
 
 .item_5{

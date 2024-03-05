@@ -1,5 +1,8 @@
 :root{
     --color-primary: #ececec;
     --color-secundary: #fff;
-    --color-shadows: 3px 3px 5px rgba(0, 0, 0, 0.122);
+    --color-tertiary: #89D8FA;
+    --color-quartetiary: #D7F065;
+    --color-quintuple: #AEF7AE;
+    --color-shadows: 0px 11px 9px rgba(0, 0, 0, 0.122)
 }
