@@ -22,9 +22,9 @@ body{
                         "week week week week sales sales sales sales sales sales balance balance"
                         "week week week week sales sales sales sales sales sales devs devs"
                         "week week week week sales sales sales sales sales sales devs devs"
-                        "product product product product timeLine timeLine timeLine timeLine timeLine timeLine timeLine timeLine"
-                        "product product product product timeLine timeLine timeLine timeLine timeLine timeLine timeLine timeLine"
-                        "product product product product timeLine timeLine timeLine timeLine timeLine timeLine timeLine timeLine"
+                        "product product product product product timeLine timeLine timeLine timeLine timeLine timeLine timeLine"
+                        "product product product product product timeLine timeLine timeLine timeLine timeLine timeLine timeLine"
+                        "product product product product product timeLine timeLine timeLine timeLine timeLine timeLine timeLine"
     ;
     grid-auto-rows: 1fr;
     width: 800px;
@@ -160,7 +160,7 @@ body{
 }
 
 .item_3{
-    background: orange;
+    background: var(--color-secundary);
     grid-area: sales;
 }
 
@@ -188,22 +188,93 @@ body{
 }
 
 .item_5{
-    background: burlywood;
+    background: var(--color-secundary);
     grid-area: week;
 }
 
 .item_6{
-    background: green;
+    background: var(--color-quartetiary);
     grid-area: devs;
 }
 
+.item_6 .info_2{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info_2 p{
+    font-size: 13px;
+}
+
+.info_2 h4{
+    font-size: 16px;
+}
+
+.info_2 button{
+    margin-top: 5px;
+    border: none;
+}
+
+.info_2 button p{
+    width: 61px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
 .item_7{
-    background: moccasin;
+    background: var(--color-secundary);
     grid-area: product;
 }
 
+.item_7 .info_3{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item_7 .info_3 h2{
+    padding: 5px;
+}
+
+.item_7 .info_3 p{
+    padding: 5px;
+}
+
+
+.item_7 .info_3 .botones{
+    display: flex;  
+}
+
+.item_7 .info_3 .botones button{
+    margin: 5px;
+}
+
+.item_7 .info_3 .boton_1{
+    background: var(--color-Sextuple);
+    border: none;
+    border-radius: 5px;
+    width: 75px;
+    height: 35px;
+}
+
+.item_7 .info_3 .boton_2{
+    background: var(--color-quartetiary);
+    border: none;
+    border-radius: 5px;
+    width: 75px;
+    height: 35px;
+}
+
+
+
+
 .item_8{
-    background: gold;
+    background: var(--color-secundary);
     grid-area: timeLine;
 }
 
